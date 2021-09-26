@@ -1,2 +1,2 @@
 test: test.c
-	norminette test.c && gcc test.c -o test.out -Wall -O3
+	norminette test.c && gcc test.c -o test.out -Wall -Wextra -O3
